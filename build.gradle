@@ -33,6 +33,7 @@ dependencies {
     testImplementation 'org.springframework.security:spring-security-test'
     implementation 'org.flywaydb:flyway-core'
     implementation 'org.apache.tomcat:tomcat-jdbc'
+    testImplementation 'com.h2database:h2'
 }
 
 test {
